@@ -9,6 +9,7 @@
 ## Copied this code from https://github.com/hlrs-vis/covise/blob/master/cmake/FindFMOD.cmake
 
 # how use in parent project:
+# set(FMOD_HOME "/the address of the fmod libraries")
 # set(CMAKE_MODULE_PATH ${FMOD_CMake_FOLDER_I_MEAN_THIS_FOLDER})
 # find_package(FMOD MODULE REQUIRED)
 # target_link_libraries($PARENT_TARGET_PRJ ${FMOD_LIBRARY_LIB})
